@@ -27,4 +27,7 @@
     </rosparam>
   </node>
 
+  <!-- The look away node -->
+  <node name="look_away" type="look_away.py" pkg="simple_arm" output="screen"/>
+
 </launch>
