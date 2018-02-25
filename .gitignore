@@ -1,3 +1,4 @@
+# CMake related files or directories
 CMakeCache.txt
 CMakeFiles
 CMakeScripts
@@ -7,3 +8,10 @@ cmake_install.cmake
 install_manifest.txt
 compile_commands.json
 CTestTestfile.cmake
+
+# catkin build system
+.catkin_tools/
+.catkin_workspace
+build/
+devel/
+logs/
